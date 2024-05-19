@@ -58,6 +58,9 @@ public class AccountAdult : Account {
     }
 }
 
-public class AccountKids : Account{ 
+public class AccountKids : Account { 
     // Agora a classe kids nao tem um exemplo de emprestimo, ou seja, eu nao estou quebrando o principio do SOLID
+    public void CriarCofrinho() { 
+        //Cria um cofrinho para a crianca
+    }
 }
